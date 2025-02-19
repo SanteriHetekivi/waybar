@@ -2,15 +2,14 @@
 // -*- mode: jsonc -*-
 {
     "layer": "top",
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window"],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
     "modules-right": ["battery", "clock"],
-    "sway/window": {
-        "max-length": 50
+    "hyprland/workspaces": {
+        "format": "{icon}"
     },
-    "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+    "hyprland/window": {
+        "seperate-outputs": true
     },
     "clock": {
         "format-alt": "{:%a, %d. %b  %H:%M}"
