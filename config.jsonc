@@ -4,7 +4,7 @@
     "layer": "top",
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["battery", "clock"],
+    "modules-right": ["tray", "battery", "clock"],
     "hyprland/workspaces": {
         "format": "{icon}"
     },
@@ -15,3 +15,4 @@
         "format-alt": "{:%a, %d. %b  %H:%M}"
     }
 }
+
